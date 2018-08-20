@@ -28,8 +28,10 @@ def findNumbers(inputNumber):
     ##################################
     ##          FILL ME IN          ##
     ##################################
-
-    return []
+    import random
+    p = random.randint(2,inputnumber)
+    q = random.randint(1,p-1)
+    return [p,q]
 
 def ensureNumbers(returnList):
     for num in returnList:
